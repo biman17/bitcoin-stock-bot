@@ -109,7 +109,7 @@ def makeWebhookResult(req):
     elif params == 'Highest Price':
         low,high = fetch_range()
         speech = "Today's highest price is {} USD.".format(high)
-    elif params == 'Lowest':
+    elif params == 'Lowest Price':
         low,high = fetch_range()
         speech = "Today's lowest price is {} USD.".format(low)
 
